@@ -85,7 +85,7 @@ foreach ($usuarios as $usuario){
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="">Correo electronico</label>
+                                    <label for="">Correos electronicos</label>
                                     <input type="email" name="email" value="<?php echo $email;?>" class="form-control" required>
                                     <input type="text" name="id_usuario" value="<?php echo $id_get;?>" hidden>
                                 </div>
