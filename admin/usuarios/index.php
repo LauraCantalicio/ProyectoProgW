@@ -28,7 +28,7 @@ include('../../layout/admin/datos_sesion_user.php');
                     }
                     ?>
                     <br>
-                    <div class="card card-blue">
+                    <div class="card card-yellow">
                         <div class="card-header">
                             Usuario
                         </div>
@@ -98,8 +98,8 @@ include('../../layout/admin/datos_sesion_user.php');
                                         <td><?php echo $email; ?></td>
                                         <td>
                                             <center>
-                                                <a href="edit.php?id=<?php echo $id;?>" class="btn btn-success btn-sm">Editar <i class="fas fa-pen"></i></a>
-                                                <a href="delete.php?id=<?php echo $id;?>" class="btn btn-danger btn-sm">Borrar <i class="fas fa-trash"></i></a>
+                                                <a href="edit.php?id=<?php echo $id;?>" class="btn btn-warning btn-sm">Editar <i class="fas fa-pen"></i></a>
+                                                <a href="delete.php?id=<?php echo $id;?>" class="btn btn-secondary btn-sm">Borrar <i class="fas fa-trash"></i></a>
                                             </center>
                                         </td>
                                     </tr>

@@ -113,7 +113,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
         <a href="<?php echo $URL;?>/admin" class="brand-link">
-            <img src="https://www.psicoactiva.com/wp-content/uploads/puzzleclopedia/Libros-codificados-300x262.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+            <img src="https://th.bing.com/th/id/R.4738ff531847bccb22172813ba64882c?rik=RHw%2bo%2fN%2bwKmjVA&pid=ImgRaw&r=0" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
             <span class="brand-text font-weight-light">BIBLIOTECA VIRTUAL</span>
         </a>
 
@@ -122,11 +122,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Sidebar user panel (optional) -->
             <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                 <div class="image">
-                    <img src="<?php echo $URL;?>/public/dist/img/user2-160x160.jpg"
+                    <img src="<?php echo $URL;?>/public/dist/img/user2-160x161.jpg"
                          class="img-circle elevation-2" alt="User Image">
                 </div>
                 <div class="info">
-                    <a href="#" class="d-block"><?php echo $sesion_nombres.' '.$sesion_apellidos;?></a>
+                    <a href="<?php echo $URL;?>/admin/index.php" class="nav-link" class = "d-block"><?php echo $sesion_nombres.' '.$sesion_apellidos;?></a>
                 </div>
             </div>
 
@@ -136,8 +136,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
                     <li class="nav-item">
-                        <a href="#" class="nav-link active">
-                            <i class="nav-icon fas fa-users"></i>
+                        <a href="#" class="nav-link active" style="background-color: #CC00FF; color : black">
+                            <i class="nav-icon fas fa-users" ></i>
                             <p>
                                 Usuarios
                                 <i class="right fas fa-angle-left"></i>
@@ -159,7 +159,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link active">
+                        <a href="#" class="nav-link active" style="background-color: #CC00FF; color : black">
                             <i class="nav-icon fas fa-book"></i>
                             <p>
                                 Libros
@@ -181,15 +181,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="nav-icon fas fa-th"></i>
-                            <p>
-                                Simple Link
-                                <span class="right badge badge-danger">New</span>
-                            </p>
-                        </a>
-                    </li>
+                    
                 </ul>
             </nav>
             <!-- /.sidebar-menu -->

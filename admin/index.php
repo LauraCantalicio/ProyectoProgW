@@ -7,7 +7,11 @@ include('../layout/admin/datos_sesion_user.php');
 ?>
 
 <?php include ('../layout/admin/parte1.php');?>
-<div class="content-wrapper">
+
+
+
+    <!-- El resto de tu código HTML va aquí -->
+    <div class="content-wrapper">
     <div class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
@@ -15,8 +19,10 @@ include('../layout/admin/datos_sesion_user.php');
                     <h1 class="m-0">Bienvenida</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
+            <div class="row"></div>
+
+
             <div class="row">
-                <div class="col-md-4"></div>
                 <div class="col-md-4">
                     <table class="table table-hover table-bordered table-striped" style="background-color: #ffffff">
                         <thead>
@@ -37,7 +43,7 @@ include('../layout/admin/datos_sesion_user.php');
                         <tr>
                             <th><b>Celular</b></th>
                             <td><?php echo $sesion_celular;?></td>
-                        </tr>
+                        </tr
                         <tr>
                             <th><b>Cargo</b></th>
                             <td><?php echo $sesion_cargo;?></td>
@@ -48,10 +54,19 @@ include('../layout/admin/datos_sesion_user.php');
                         </tr>
                         </tbody>
                     </table>
+                    <div class="row"></div>
+
                 </div>
-                <div class="col-md-4"></div>
+ 
             </div>
+
+
         </div><!-- /.container-fluid -->
     </div>
 </div>
 <?php include ('../layout/admin/parte2.php');?>
+
+
+
+
+

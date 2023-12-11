@@ -17,7 +17,7 @@ include('../../layout/admin/datos_sesion_user.php');
             </div><!-- /.row -->
 
             <div class="card">
-                <div class="card-header">
+                <div class="card-header" style="background-color:#009933 ;color: #ffffff">
                     LLene la información con mucho cuidado
                 </div>
                 <div class="card-body">
@@ -117,12 +117,12 @@ include('../../layout/admin/datos_sesion_user.php');
                             <div class="col-md-2"></div>
                             <div class="col-md-4">
                                 <center>
-                                    <a href="<?php echo $URL."/admin/";?>" class="btn btn-default btn-block">Cancelar</a>
+                                    <a href="<?php echo $URL."/admin/";?>" class="btn btn-secondary btn-block">Cancelar</a>
                                 </center>
                             </div>
                             <div class="col-md-4">
                                <center>
-                                   <button type="submit" onclick="return confirm('Asegurece de llenar la información correcta');" class="btn btn-primary btn-block">Guardar</button>
+                                   <button type="submit" onclick="return confirm('Asegurece de llenar la información correcta');" class="btn btn-success btn-block">Guardar</button>
                                </center>
                             <div class="col-md-2"></div>
                         </div>

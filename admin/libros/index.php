@@ -28,7 +28,7 @@ include('../../layout/admin/datos_sesion_user.php');
                     }
                     ?>
                     <br>
-                    <div class="card card-blue">
+                    <div class="card card-purple">
                         <div class="card-header">
                             Libros
                         </div>
@@ -81,7 +81,8 @@ include('../../layout/admin/datos_sesion_user.php');
                                     <th>Ejemplares</th>
                                     <th>Observaciones</th>
                                     <th>Codigo de Barra</th>
-                                    <th><center>Acciones</center></th>
+                                    <th><center> Acciones</center></th>
+                                    
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -105,15 +106,19 @@ include('../../layout/admin/datos_sesion_user.php');
                                       $ejemplares = $libro['ejemplares'];
                                       $observaciones = $libro['observaciones'];
                                       $codigo_barra = $libro['codigo_barra'];
-                                      $contador = $contador + 1;
+                                      $numeroDeVeces = 1;
+                                      $rutaDeImagen = 'public/dist/img/frontal.png'; 
                                       }
                                       foreach ($libros as $libro) {
                                         echo "<tr>";
+                                        $contador = $contador + 1; 
                                         echo "<td>" . $contador . "</td>";
                                         echo "<td>" . $libro['codigo'] . "</td>";
                                         echo "<td>" . $libro['titulo'] . "</td>";
                                         echo "<td>" . $libro['autor'] . "</td>";
+                                        echo "<td>" . "</td>";
                                         echo "<td>" . $libro['campo'] . "</td>";
+                                        echo "<td>" . "</td>";
                                         echo "<td>" . $libro['editorial'] . "</td>";
                                         echo "<td>" . $libro['ano_publicacion'] . "</td>";
                                         echo "<td>" . $libro['nro_edicion'] . "</td>";
@@ -122,7 +127,7 @@ include('../../layout/admin/datos_sesion_user.php');
                                         echo "<td>" . $libro['ejemplares'] . "</td>";
                                         echo "<td>" . $libro['observaciones'] . "</td>";
                                         echo "<td>" . $libro['codigo_barra'] . "</td>";
-                                        echo "<td><center><a href ='edit.php?id=" . $libro['id_libro'] . "' class='btn btn-success btn-sm'> Editar <i class='fas fa-pen'></i></a><a href ='delete.php?id=" . $libro['id_libro'] . "' class='btn btn-danger btn-sm'> Borrar<i class='fas fa-trash'></i></a></center></td>";
+                                        echo "<td><img src='" . $rutaDeImagen . "' alt='Imagen'></td>";
                                         echo "</tr>";
                                     }
                                     ?>

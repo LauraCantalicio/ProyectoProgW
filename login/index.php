@@ -21,14 +21,14 @@ include ('../app/config/conexion.php');
 <body class="hold-transition login-page">
 <div class="login-box">
     <!-- /.login-logo -->
-    <div class="card card-outline card-primary">
+    <div class="card card-outline card-warning">
         <div class="card-header text-center">
-            <a href="../../index2.html" class="h1"><b>SIS </b>BIBLIOTECA</a>
+            <a href="../../index2.html" class="h1"><b>DIG </b>BIBLIOTECA</a>
             
         </div>
         <div class="card-body">
            <center>
-               <img src="https://www.psicoactiva.com/wp-content/uploads/puzzleclopedia/Libros-codificados-300x262.jpg"
+               <img src="https://2.bp.blogspot.com/-T4M6OII1Ybo/W4wyqhhvmbI/AAAAAAAAVS8/ToJW3l8Ww1cJqe2AReHSqlpnJ18cmhU7gCLcBGAs/w800/kisspng-butterfly-allposters-com-book-vector-book-fly-butterfly-5a7b130a3a3bc0.5100912615180152422385.png"
                     style="width: 150px" alt="">
            </center>
 
@@ -54,8 +54,8 @@ include ('../app/config/conexion.php');
                     </div>
                 </div>
                 <div class="form-group">
-                    <a href="" class="btn btn-default btn-block">Cancelar</a>
-                    <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+                    <a href="" class="btn btn-secondary btn-block">Cancelar</a>
+                    <button type="submit" class="btn btn-warning btn-block">Ingresar</button>
                 </div>
                 <!--<div class="row">
                     <div class="col-8">

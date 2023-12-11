@@ -12,13 +12,13 @@ include('../../layout/admin/datos_sesion_user.php');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Registro de un nuevo usuario</h1>
+                    <h1 class="m-0"><b>Registro de un nuevo usuario</b></h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
 
             <div class="card">
-                <div class="card-header">
-                    LLene la información con mucho cuidado
+                <div class="card-header" style="background-color: #3399CC ;color: #ffffff">
+                   <b> LLene la información con mucho cuidado</b>
                 </div>
                 <div class="card-body">
                     <form action="controller_create.php" method="post">
@@ -88,12 +88,12 @@ include('../../layout/admin/datos_sesion_user.php');
                             <div class="col-md-2"></div>
                             <div class="col-md-4">
                                 <center>
-                                    <a href="<?php echo $URL."/admin/";?>" class="btn btn-default btn-block">Cancelar</a>
+                                    <a href="<?php echo $URL."/admin/";?>" class="btn btn-secondary btn-block">Cancelar</a>
                                 </center>
                             </div>
                             <div class="col-md-4">
                                <center>
-                                   <button type="submit" onclick="return confirm('Asegurece de llenar la información correcta');" class="btn btn-primary btn-block">Registrar usuario</button>
+                                   <button type="submit" onclick="return confirm('Asegurece de llenar la información correcta');" class="btn btn-info btn-block">Registrar usuario</button>
                                </center>
                             <div class="col-md-2"></div>
                         </div>

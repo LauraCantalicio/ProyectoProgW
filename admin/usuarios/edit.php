@@ -35,7 +35,7 @@ foreach ($usuarios as $usuario){
             </div><!-- /.row -->
 
             <div class="card">
-                <div class="card-header" style="background-color: #00A000;color: #ffffff">
+            <div class="card-header" style="background-color: #CC0000;color: #FFFFFF">
                     LLene la información con mucho cuidado
                 </div>
                 <div class="card-body">
@@ -97,13 +97,13 @@ foreach ($usuarios as $usuario){
                             <div class="col-md-2"></div>
                             <div class="col-md-4">
                                 <center>
-                                    <a href="<?php echo $URL."/admin/usuarios";?>" class="btn btn-default btn-block">Cancelar</a>
+                                    <a href="<?php echo $URL."/admin/usuarios";?>" class="btn btn-secondary btn-block">Cancelar</a>
                                 </center>
                             </div>
                             <div class="col-md-4">
                                 <center>
                                     <button type="submit" onclick="return confirm('Asegurece de llenar la información correcta');"
-                                            class="btn btn-success btn-block">Actualizar usuario</button>
+                                            class="btn btn-danger btn-block">Actualizar usuario</button>
                                 </center>
                             </div>
                             <div class="col-md-2"></div>

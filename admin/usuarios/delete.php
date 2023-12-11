@@ -97,7 +97,7 @@ foreach ($usuarios as $usuario){
                             <div class="col-md-2"></div>
                             <div class="col-md-4">
                                 <center>
-                                    <a href="<?php echo $URL."/admin/usuarios";?>" class="btn btn-default btn-block">Cancelar</a>
+                                    <a href="<?php echo $URL."/admin/usuarios";?>" class="btn btn-secondary btn-block">Cancelar</a>
                                 </center>
                             </div>
                             <div class="col-md-4">
