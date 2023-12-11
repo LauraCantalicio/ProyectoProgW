@@ -36,7 +36,7 @@ foreach ($usuarios as $usuario){
 
             <div class="card">
             <div class="card-header" style="background-color: #CC0000;color: #FFFFFF">
-                    LLene la información con mucho cuidado
+                    Lea la informacion detenidamente antes de enviarla
                 </div>
                 <div class="card-body">
                     <form action="controller_edit.php" method="post">
@@ -103,7 +103,7 @@ foreach ($usuarios as $usuario){
                             <div class="col-md-4">
                                 <center>
                                     <button type="submit" onclick="return confirm('Asegurece de llenar la información correcta');"
-                                            class="btn btn-danger btn-block">Actualizar usuario</button>
+                                            class="btn btn-danger btn-block">Guardar cambios</button>
                                 </center>
                             </div>
                             <div class="col-md-2"></div>
